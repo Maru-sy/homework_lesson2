@@ -23,3 +23,13 @@ elif choice == 3:
     print(average)
 else:
     print("Incorrect input")
+meters = int(input("Enter meters: "))
+choice_task2 = int(input("Convert to miles - press 1, convert to inches - press 2, convert to yards - press 3: "))
+if choice_task2 == 1:
+    print(f"{meters / 1609} miles")
+elif choice_task2 == 2:
+    print(f"{meters * 39} inches")
+elif choice_task2 == 3:
+    print(f"{meters * 1.094} yards")
+else:
+    print("Incorrect input")
