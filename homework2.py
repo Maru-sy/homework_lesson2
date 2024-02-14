@@ -34,4 +34,5 @@ elif choice_task2 == 3:
 else:
     print("Incorrect input")
 print("Hello")
-print("master")
+print("master and text")
+print("demo")
