@@ -33,7 +33,3 @@ elif choice_task2 == 3:
     print(f"{meters * 1.094} yards")
 else:
     print("Incorrect input")
-print("Hello")
-print("master and text")
-print("demo")
-print("git")
