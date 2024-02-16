@@ -41,5 +41,35 @@ except Exception as error:
     print(f"Exception occurred: {error}")
 finally:
     print("End")
+try:
+    number1 = int(input("Enter number 1: "))
+    number2 = int(input("Enter number 2: "))
+    operation = input("Enter mathematical operation +-/*: ")
+    match operation:
+        case "+":
+            print(f"Result: {number1 + number2}")
+        case "-":
+            print(f"Result: {number1 - number2}")
+        case "*":
+            print(f"Result: {number1 * number2}")
+        case "/":
+            print(f"Result: {number1 / number2}")
+        case _:
+            print("Incorrect operation enter")
+except ValueError as error:
+    print(f"Enter only integer numbers,please.")
+    print(f"ValueError: {error}")
+except ZeroDivisionError as error:
+    print(f"ZeroDivisionError occurred: {error}")
+except Exception as error:
+    print(f"Exception occurred: {error}")
+finally:
+    print("End")
+
+
+
+
+
+
 
 
