@@ -24,3 +24,22 @@ except Exception as error:
     print(f"Exception occurred: {error}")
 finally:
     print("End")
+try:
+    number1 = int(input("Enter number 1: "))
+    number2 = int(input("Enter number 2: "))
+    if not number1 == number2:
+        if number1 > number2:
+            print(number2, number1)
+        else:
+            print(number1, number2)
+    else:
+        print("Equal numbers entered")
+except ValueError as error:
+    print(f"Enter only integer numbers,please.")
+    print(f"ValueError: {error}")
+except Exception as error:
+    print(f"Exception occurred: {error}")
+finally:
+    print("End")
+
+
