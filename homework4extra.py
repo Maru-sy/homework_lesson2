@@ -30,7 +30,29 @@ try:
     print(f'Exclamation point: {exclamation_count}')
 except Exception as e:
     print(e)
-
-
-
-
+# square_side = 19
+# text = "*  "
+# text2 = "*"
+# text3 = "* " + " * " * 5 + " *"
+#for i in range(square_side):
+    #print(text.ljust(7))
+    #text += "*  "
+#for i in range(7):
+   # print(text2.rjust(19))
+    #text2 += "  *"
+#for i in range(7):
+# print(text3.center(19))
+# print(text3[2:-1].center(19))
+# print(text3[5:-4].center(19))
+# print(text3[8:-7].center(19))
+# print(text3[5:-4].center(19))
+# print(text3[2:-1].center(19))
+# print(text3.center(19))
+# for i in range(7):
+#     while len(text3)>0:
+#         print(text3[i + 3: i - 3])
+# for i in range(7):
+#     print(text3.center(19))
+#     print(text3[2:-3].center(19))
+#     print(text[5:-6].center(19))
+#     print
