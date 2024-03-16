@@ -24,7 +24,7 @@ with open("text1.txt", "r", encoding="utf-8") as text1_file:
     print(f"Number of words in the text: {number_of_words_in_text}")
 
 
-def forbidden_word_search_change(test_list, forbidden_word, forbidden_word_count=0):
+def forbidden_word_search_change(text_list, forbidden_word, forbidden_word_count = 0):
     for i in range(len(text_list)):
         if text_list[i].lower() == forbidden_word.lower():
             text_list[i] = "*" * len(forbidden_word)
